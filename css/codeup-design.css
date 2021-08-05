@@ -2,26 +2,36 @@
 /*font-family: 'Anton', sans-serif;*/
 
 body{
-    background-color: blue;
+    background-color: #f0f0f0;
 }
 
-.container{
-    margin: 0;
+main{
+    width: 100%;
 }
-
+h1{
+    margin-top: 20px;
+}
+h2{
+    margin-top: 20px;
+}
 h1 ,h2{
     font-family: 'Anton', sans-serif;
     text-align: center;
 }
+h5{
+    font-family: 'Abel', sans-serif;
+}
 
-
+.select-work{
+    padding
+}
 nav a {
     font-size: .75em;
     color: black;
 }
 
 .nav-background{
-    background-color: red;
+    background-color: white;
 
 }
 
@@ -47,18 +57,18 @@ nav .nav-item {
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
+    border: 7px solid white;
+    padding: 25px;
 }
 
 .tdots{
     display: flex;
     flex-direction: row;
     align-items: center;
-}
+    justify-content: center;
+    padding: 12px 0 0 0;
 
-.bdots{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+
 }
 
 .sdot{
@@ -72,4 +82,53 @@ span{
 
 .dot-margin{
     margin-left: 40px;
+}
+
+.bgtl{
+    background-color: #e6563b;
+    color: white;
+}
+.bgtr{
+    background-color: #dea03d;
+    color: white;
+}
+.bgbl{
+    background-color: #7cb06c;
+    color: white;
+}
+.bgbr{
+    background-color: #00aba9;
+    color: white;
+}
+
+.bgtl, .bgtl2{
+    background-color: #e6563b;
+    color: white;
+    margin-right: 10px;
+}
+.bgtr, .bgtr2{
+    background-color: #dea03d;
+    color: white;
+    margin-left: 10px;
+}
+.bgbl, .bgbl2{
+    background-color: #7cb06c;
+    color: white;
+    margin-right: 10px;
+}
+.bgbr, .bgbr2{
+    background-color: #00aba9;
+    color: white;
+    margin-left: 10px;
+}
+
+.card-img-top {
+    border: 5px solid #e6e6e6;
+    border-radius: 2%;
+}
+
+.card {
+    background-color: #f0f0f0;
+    border: none;
+
 }
