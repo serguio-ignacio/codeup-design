@@ -1,3 +1,62 @@
+/*font-family: 'Abel', sans-serif;*/
+/*font-family: 'Anton', sans-serif;*/
+
 body{
+    background-color: blue;
+}
+
+.container{
+    margin: 0;
+}
+
+h1 ,h2{
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+
+
+nav a {
+    font-size: .75em;
+    color: black;
+}
+
+.nav-background{
     background-color: red;
+
+}
+
+.nav-background {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 59px;
+    width: 100%;
+    top: 37px;
+    z-index: -1000;
+
+}
+
+nav .nav-item {
+    position: relative;
+    bottom: 6px;
+}
+
+.dot {
+    height: 105px;
+    width: 105px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.tdots{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bdots{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
