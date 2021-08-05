@@ -22,8 +22,10 @@ h5{
     font-family: 'Abel', sans-serif;
 }
 
+
 .select-work{
-    padding
+    padding: 50px 0 20px 0;
+
 }
 nav a {
     font-size: .75em;
@@ -81,7 +83,7 @@ span{
 }
 
 .dot-margin{
-    margin-left: 40px;
+    margin-left: 65px;
 }
 
 .bgtl{
@@ -105,6 +107,7 @@ span{
     background-color: #e6563b;
     color: white;
     margin-right: 10px;
+    font-size: 20px;
 }
 .bgtr, .bgtr2{
     background-color: #dea03d;
@@ -130,5 +133,9 @@ span{
 .card {
     background-color: #f0f0f0;
     border: none;
+
+}
+.card-spacing {
+    margin: auto;
 
 }
