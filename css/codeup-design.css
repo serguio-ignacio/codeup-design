@@ -23,7 +23,12 @@ h5{
     padding: 0 50px 0 0;
 
 }
-
+.card-title {
+    font-family: 'Anton', sans-serif;
+    flex-wrap: wrap;
+    font-size: 12px;
+    padding: 0 110px 0 0;
+}
 
 .select-work{
     padding: 50px 0 20px 0;
@@ -167,21 +172,43 @@ hr{
 
 .sdot1{
     background-color: #e6563b;
-    margin: 4px 3px;
+    margin: 3px 2px;
 }
 
 .sdot2{
     background-color: #dea03d;
-    margin: 4px 3px;
+    margin: 3px 2px;
 
 }
 .sdot3{
     background-color: #7cb06c;
-    margin: 4px 3px;
+    margin: 3px 2px;
 
 }
 .sdot4{
     background-color: #00aba9;
-    margin: 4px 3px;
+    margin: 3px 2px;
 
+}
+
+.image-sizing {
+    width: 4rem;
+    align-content: center;
+    padding-top: 20px;
+}
+.image-center {
+    align-content: center;
+    align-items: center;
+}
+li {
+    list-style: none;
+}
+
+.the-last {
+    padding-top: 50px;
+}
+h4{
+    font-family: 'Anton', sans-serif;
+    font-size: 18px;
+    padding: 0 0 0 0;
 }
